@@ -30,7 +30,8 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 960px;
+  background-color: #fcfbfb;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
@@ -54,6 +55,7 @@ hr {
   background: var(--accent1-color);
 }
 header {
+  background-color: rgba(20, 30, 13, .7);
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
@@ -116,6 +118,7 @@ nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
+  background-color: black;
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
