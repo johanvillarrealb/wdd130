@@ -69,6 +69,9 @@ p {
   color: var(--paragraph-color);
   padding: 1em;
 }
+.icon {
+    width: 80px;
+}
 .colors {
   width: 100%;
   min-width: 350px;
@@ -108,8 +111,9 @@ nav  {
   list-style-type: none;
   display: flex;
 }
-nav a {
-  padding:1em;
+nav a { 
+  text-align: center;
+  color: #fcfbfb;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
@@ -119,6 +123,7 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
   background-color: black;
+  color: #d9c2a3;
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
