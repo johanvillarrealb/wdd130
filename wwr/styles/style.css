@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rock+Salt&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -30,7 +30,7 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  background-color: #fcfbfb;
+  background-color: #ffffff;
   max-width: 1600px;
   margin: 0 auto;
   padding: 4em;
@@ -38,12 +38,14 @@ body {
   text-align: center;
 }
 img {
+  border: 7px solid #d9c2a3;
   display: block;
-  margin: 0 auto;
+  margin: 15px auto;
   max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+  font-family: "Rock Salt", "Bradley Hand", sans-serif;
+  font-size: 2em;
   color: var(--headline-color-on-white);
 }
 h2 {

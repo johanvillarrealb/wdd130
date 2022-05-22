@@ -32,13 +32,16 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  background-color: #fcfbfb;
+  font-family: Raleway,Arial,sans-serif;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
+  padding: 15px 30px;
+  font-size: 22px;
   text-align: center;
 }
 img {
+  
   display: block;
   margin: 0 auto;
   max-width: 300px;
@@ -48,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--headline-color-on-white);
 }
 h2 {
+  margin: 0;
   text-align: center;
 }
 hr {
@@ -109,7 +113,12 @@ nav  {
   display: flex;
 }
 nav a {
-  padding:1em;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding:  15px 30px;
+  margin-top: 50px;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
